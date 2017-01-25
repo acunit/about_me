@@ -1,0 +1,149 @@
+body {
+  background: black;
+}
+
+h1 {
+  text-align: center;
+  color: darkgreen;
+  padding-top: 3%;
+  font-family: 'Pacifico', cursive;
+  font-size: 50pt;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12pt;
+}
+
+#intro {
+  text-align: center;
+  font-size: 15pt;
+}
+
+h2 {
+  padding-left: 1%;
+  font-family: 'Pacifico', cursive;
+  border-bottom: 3px solid black;
+}
+
+img {
+  border: 1px solid white;
+
+}
+
+.wrap {
+  width: 95%;
+  margin: auto;
+  background: white;
+}
+
+#fries {
+  height: 100px;
+  width: auto;
+  margin-left: 50px;
+}
+
+#harper {
+  height: 100px;
+  width: auto;
+  margin-left: 50px;
+}
+
+.wrap:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.alex {
+  background: white;
+  margin: 2%;
+}
+.alex:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.alex_p1 {
+  width: 50%;
+  float: left;
+  margin-right: 4%;
+  background: white;
+  padding-left: 1%;
+}
+
+.alex_p2 {
+  width: 45%;
+  float: right;
+  background: white;
+}
+
+#alex_table:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 99%;
+  margin: 5px;
+  float:none;
+  align: center;
+}
+/*
+thead {
+  display: block;
+  justify-content:center;
+  align-items:center;
+  width: 500px;
+}
+
+tbody {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 500px;
+}*/
+
+.table th {
+  text-align: center;
+  border: 1px solid black;
+}
+.table td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.andrew {
+  background: white;
+  clear:both;
+  padding-top: 5px;
+  margin: 2%;
+}
+
+.andrew:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.andrew_p1 {
+  width: 45%;
+  float: left;
+  background: white;
+}
+
+.andrew_p2 {
+  width: 50%;
+  margin-left: 5%;
+  float: right;
+  background: white;
+}
+
+footer {
+  text-align: center;
+  margin: 5px;
+}
